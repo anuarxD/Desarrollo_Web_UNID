@@ -9,7 +9,8 @@ var start = ["Hola", "que onda", "hey", "Hello"];
 var chat= ["a si", ["a","b","c"], "apoco"]
 
 function saludar() {
-    alert(start[1])
+    const random = Math.floor(Math.random() * start.length);
+    alert(start[random]);
 }
 
 //alert("Hola, si funciona");
